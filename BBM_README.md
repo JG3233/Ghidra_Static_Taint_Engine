@@ -10,6 +10,8 @@ The Ghidra API documentation is used heavily and provides far more functionality
 
 ## Running
 
+**NOTE:** This repo does not contain the supporting files, as they were not a part of my contribution.
+
 There are two possible ways to run the Ghidra scripts, one more general and one better fit for testing on individual binaries. To run generally, we can just use the regular main.py file on an extracted firmware image. Of course, we need to update taint_config.py to select for ref2sink_bbm as one of the scripts we would like to run.
 
 ### Generally
